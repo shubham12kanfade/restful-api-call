@@ -1,0 +1,17 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "restfulApi",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "restful-api",
+      "kebab-case"
+    ]
+  }
+}
